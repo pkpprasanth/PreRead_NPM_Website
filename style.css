@@ -23,6 +23,9 @@
        .course:hover{
            background-color: coral;
        }
+       .ser:hover{
+        background-color: rgb(190, 79, 38);
+       }
 
 body{
     font-family: Poppins,sans-serif;
@@ -72,24 +75,30 @@ margin: 5px;
 
 }
 #click:hover{
-    background-color: bisque;
+    background-color: rgb(238, 130, 58);
 }
-.submit{
+#log{
+  margin-top: 1%;
+  margin-bottom: 2%;
+  
+}
+.Sign{
 border: none;
 outline: none;
-
-width: 7%;
-height: 7%;
+width: 5%;
+height: 5%;
 background-color: white;
+border-radius: 20%;
 font-family: Poppins,sans-serif;
 
 }
-.submitt{
+.Log{
 border: none;
 outline: none;
+border-radius: 20%;
 border: 1px solid black;
-width: 7%;
-height: 7%;
+width: 5%;
+height: 5%;
 background-color: white;
 font-family: Poppins,sans-serif; 
 }
@@ -139,7 +148,7 @@ margin-top: 5%;
 .container {
 display: flex;
 justify-content: space-around;
-margin-top: 5%
+margin-top: 2%
 
 
 
@@ -147,6 +156,10 @@ margin-top: 5%
 .listofcourse{
 margin: 0 10px;
 font-family: Poppins,sans-serif;
+border: 1px solid black;
+padding: 1%;
+border-radius: 10%;
+background-color: blanchedalmond;
 }
 .course{
 border: none;
@@ -182,10 +195,6 @@ text-align: center;
 font-family: Poppins,sans-serif;
 font-size:30px;
 font-weight:bold;
-
-
-
-
 }
 .border{
 border-bottom: 1px solid gray;
@@ -205,23 +214,19 @@ float: left;
 
 }
 .Search{
-width: 800px;
+    position: absolute;
+width: 60%;
 height: 6%;
 text-align: center;
 font-size: 150%;
 border: 2px solid rgb(198, 138, 253);
 }
-.Search:hover{
-    width: 900px;
-    height: 7%;
-    border: 3px solid green;
-}
+
 .ser{
-    margin-left: 1%;
+    margin-left: 64%;
     position: absolute;
     width: 6%;
-height: 6%;
-
+height: 5.5%;
 border:none;
 outline: none;
 background-color: black;
